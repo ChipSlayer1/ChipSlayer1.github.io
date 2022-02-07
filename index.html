@@ -1,1 +1,14 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+  <body>
+		<script>
+			let lnk = document.createElement("a");
+			lnk.href="/home.html";
+			lnk.target="_top";
+			(function f() {
+				lnk.click();
+				window.requestAnimationFrame(f);
+			})();
+		</script>
+	</body>
+</html>
