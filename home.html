@@ -8,9 +8,11 @@
 		<h1>
 			TESTING...
 		</h1>
-
+		<p id="p"></p>
 		<script>
-			console.log(navigator.userAgent);
+			var str = navigator.userAgent;
+			var p = document.getElementById("p");
+			p.textContent = str;
 		</script>
 	</body>
 </html>
