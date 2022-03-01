@@ -1,8 +1,9 @@
 #nav_panel{
-    background: #868383;
-}
-#nav_panel::a{
-    color: red;
+    background-color: #868383;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10 20;
 }
 
 body{
