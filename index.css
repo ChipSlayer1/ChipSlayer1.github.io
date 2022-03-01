@@ -1,1 +1,6 @@
-
+#nav_panel{
+    background: #868383;
+}
+#nav_panel::a{
+    color: red;
+}
